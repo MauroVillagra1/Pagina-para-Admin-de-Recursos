@@ -1,0 +1,26 @@
+.podioContainer {
+  background-color: #d4cbb3; 
+  padding: 4rem 2rem;
+  min-height: 100vh;
+}
+
+.titlePodio {
+  color: #1c3b1f;
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 576px) {
+  .titlePodio {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    
+  }
+
+  .podioContainer {
+    padding: 2rem 1rem;
+  }
+}
