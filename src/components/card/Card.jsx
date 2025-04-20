@@ -5,7 +5,7 @@ import { RiCellphoneFill } from "react-icons/ri";
 const Card = () => {
   return (
     <Row className="rowCard justify-content-center ">
-      <Col xs={12} md={6} lg={4}>
+      <Col xs={12} md={6} lg={6} xl={4}>
         <div className="cardContainer">
           <div className="logoContainer">
             <RiCellphoneFill className="logo"/>
@@ -21,7 +21,7 @@ const Card = () => {
         </div>
       </Col>
 
-      <Col xs={12} md={6} lg={4}>
+      <Col xs={12} md={6} lg={6} xl={4}>
         <div className="cardContainer">
           <div className="logoContainer">
             <RiCellphoneFill className="logo"/>
@@ -37,7 +37,7 @@ const Card = () => {
         </div>
       </Col>
 
-      <Col xs={12} md={6} lg={4}>
+      <Col xs={12} md={6} lg={6} xl={4}>
         <div className="cardContainer">
           <div className="logoContainer">
             <RiCellphoneFill className="logo"/>
@@ -53,7 +53,7 @@ const Card = () => {
         </div>
       </Col>
 
-      <Col xs={12} md={6} lg={4}>
+      <Col xs={12} md={6} lg={6} xl={4}>
         <div className="cardContainer">
           <div className="logoContainer">
             <RiCellphoneFill className="logo"/>
@@ -69,7 +69,7 @@ const Card = () => {
         </div>
       </Col>
 
-      <Col xs={12} md={6} lg={4}>
+      <Col xs={12} md={6} lg={6} xl={4}>
         <div className="cardContainer">
           <div className="logoContainer">
             <RiCellphoneFill className="logo"/>
@@ -85,7 +85,7 @@ const Card = () => {
         </div>
       </Col>
 
-      <Col xs={12} md={6} lg={4}>
+      <Col xs={12} md={6} lg={6} xl={4}>
         <div className="cardContainer">
           <div className="logoContainer">
             <RiCellphoneFill className="logo"/>
