@@ -1,0 +1,25 @@
+.footerContainer {
+  background-color: #1c3b1f;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.imgContainer {
+  display: flex;
+  padding-left: 10vh;
+}
+
+.logoImg {
+    width: 18vh;
+}
+
+.footerTitleContainer{
+    padding-right: 10vh;
+}
+
+.footerTitle{
+    color: #f5f1e8;
+    font-weight: 700;
+}

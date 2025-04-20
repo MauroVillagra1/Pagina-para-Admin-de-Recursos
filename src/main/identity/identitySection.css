@@ -1,0 +1,59 @@
+.misionContainer {
+    height: 100vh;
+    display: flex;
+      flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #f5f1e8; 
+  }
+  
+  .infoBox {
+      width: 50%;
+      margin: 1rem auto;
+  }
+  
+  .icon{
+      font-size: 8vh;
+      color: #1c3b1f;
+  }
+  
+  .infoBox h1 {
+    font-size: 2.3rem;
+    color: #1c3b1f;
+    margin-bottom: 0-5rem;
+  }
+  
+  .infoBox p {
+    font-size: 1.2rem;
+    color: #3e3e3e;
+      font-weight: 500;
+  }
+  
+  
+  
+  @media (max-width: 768px) {
+    .infoBox {
+      width: 100%;
+      padding: 1rem;
+    }
+  
+    .icon {
+      font-size: 5vh;
+    }
+  
+    .infoBox h1 {
+      font-size: 1.8rem;
+    }
+  
+    .infoBox p {
+      font-size: 1rem;
+    }
+  
+    .misionContainer {
+      height: auto; 
+      padding: 2rem 1rem;
+    }
+  }

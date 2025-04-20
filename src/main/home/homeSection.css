@@ -1,0 +1,82 @@
+.mainContainer {
+    font-family: 'Inter', sans-serif;
+    background-image: url('../../assets/inicioBg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f5f1e8; 
+  }
+  
+  .inicio {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 2rem;
+    border-radius: 30px;
+    background-color: #f5f1e8;
+    box-shadow: 6px 7px 58px -1px rgba(0,0,0,0.75);
+    transition: transform 0.3s ease;
+  }
+
+  .inicio:hover {
+    transform: scale(1.02);
+  }
+  
+  .titleContainer {
+    flex: 1;
+    animation: fadeInLeft 1s ease-out forwards;
+  }
+  
+  .title {
+    font-size: 5vh;
+    font-weight: 800;
+    color: #1c3b1f;
+    margin-bottom: 1rem;
+  }
+  
+  .imageContainer {
+    flex: 1;
+    min-width: 250px;
+    display: flex;
+    justify-content: center;
+    animation: fadeInRight 1s ease-out forwards;
+  }
+  
+  .imgInicio {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 30px;
+  }
+  
+  
+  
+  @keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
