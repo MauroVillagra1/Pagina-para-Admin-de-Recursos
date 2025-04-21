@@ -24,7 +24,7 @@ const NavbarComponent = () => {
           <Navbar.Collapse id="basic-navbar-nav" >
             <Nav className="ms-auto nav-links d-flex justify-content-center align-items-center">
               <Nav.Link href="#inicio" className="text-light navLink">Inicio</Nav.Link>
-              <Nav.Link href="#misionVision" className="text-light navLink">Servicios</Nav.Link>
+              <Nav.Link href="#misionVision" className="text-light navLink">Mision y Vision</Nav.Link>
               <Nav.Link href="#podio" className="text-light navLink">PODIO</Nav.Link>
             </Nav>
           </Navbar.Collapse>

@@ -22,4 +22,18 @@
 .footerTitle{
     color: #f5f1e8;
     font-weight: 700;
+    width: 100%;
+}
+
+.list-footer{
+  list-style: none;
+}
+
+.column-footer{
+  display: flex;
+  align-items: center;
+}
+
+.click-footer{
+  cursor: pointer;
 }
