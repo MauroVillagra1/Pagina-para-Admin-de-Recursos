@@ -5,7 +5,7 @@ import { FaWhatsapp, FaInstagram, FaTwitter, FaFacebook } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="footerContainer">
-      <div className="d-flex imgContainer flex-column">
+      <div className="d-flex imgContainer flex-column column-footer">
         <a href="#nav">
           <img className="logoImg" src="https://res.cloudinary.com/dol1ba0ld/image/upload/v1745244273/Tomi%20Waj%20Gay/logo_id9vjw.png" alt="" />
         </a>
@@ -33,7 +33,7 @@ const Footer = () => {
           
         </ul>
       </div>
-      <div className="d-flex footerTitleContainer flex-column ">
+      <div className="d-flex footerTitleContainer flex-column column-footer">
         <h3 className="footerTitle">Autores</h3>
         <ul className="footerTitle">
           <li>Bonilla Valentina - 49929</li>
