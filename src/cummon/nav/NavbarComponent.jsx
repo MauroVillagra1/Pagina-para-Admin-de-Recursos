@@ -12,7 +12,7 @@ const NavbarComponent = () => {
           <Navbar.Brand href="#nav">
             <img
               alt=""
-              src={logo}
+              src="https://res.cloudinary.com/dol1ba0ld/image/upload/v1745244273/Tomi%20Waj%20Gay/logo_id9vjw.png"
               width="100"
               height="100"
               className="d-inline-block align-top imgNav"

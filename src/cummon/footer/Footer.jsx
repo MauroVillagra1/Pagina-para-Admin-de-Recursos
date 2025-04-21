@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footerContainer">
       <div className="d-flex imgContainer flex-column">
         <a href="#nav">
-          <img className="logoImg" src={logo} alt="" />
+          <img className="logoImg" src="https://res.cloudinary.com/dol1ba0ld/image/upload/v1745244273/Tomi%20Waj%20Gay/logo_id9vjw.png" alt="" />
         </a>
       </div>
       <div className="d-flex footerTitleContainer flex-column column-footer">

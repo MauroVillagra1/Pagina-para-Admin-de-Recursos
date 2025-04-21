@@ -12,7 +12,7 @@ const HomeSection = () => {
         </div>
 
         <div className="imageContainer">
-          <img src={logo} alt="Logo AgroTic Solutions" className="imgInicio" />
+          <img src="https://res.cloudinary.com/dol1ba0ld/image/upload/v1745244273/Tomi%20Waj%20Gay/logo_id9vjw.png" alt="Logo AgroTic Solutions" className="imgInicio" />
         </div>
       </div>
     </section>
