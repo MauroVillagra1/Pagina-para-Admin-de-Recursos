@@ -3,12 +3,12 @@
   padding: 2rem 0;
   display: flex;
   justify-content: space-between;
-  gap: 3rem;
+  gap: 1rem;
 }
 
 .imgContainer {
   display: flex;
-  padding-left: 10vh;
+  padding-left: 7vh;
 }
 
 .logoImg {
@@ -16,7 +16,7 @@
 }
 
 .footerTitleContainer{
-    padding-right: 10vh;
+    margin-right: 5vh;
 }
 
 .footerTitle{

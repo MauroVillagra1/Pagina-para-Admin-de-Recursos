@@ -4,7 +4,7 @@ import './podioSection.css'
 
 const PodioSection = () => {
     return (
-        <section className="podioContainer d-flex flex-column">
+        <section id='podio' className="podioContainer d-flex flex-column">
             <div className='d-flex justify-content-center'>
                 <h1 className='titlePodio'>PODIO</h1>
             </div>
